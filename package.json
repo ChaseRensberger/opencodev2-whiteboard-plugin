@@ -4,17 +4,19 @@
   "description": "Connect OpenCode V2 to dev.fast Whiteboard",
   "license": "MIT",
   "type": "module",
+  "packageManager": "bun@1.3.14",
   "main": "index.js",
   "exports": "./index.js",
   "files": ["index.js", "command.js", "LICENSE", "README.md"],
   "scripts": {
-    "test": "node --test",
+    "test": "bun test",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@opencode/plugin": "^2.0.20"
   },
   "devDependencies": {
+    "@types/bun": "^1.3.14",
     "@types/node": "^22.0.0",
     "typescript": "^5.9.3"
   }
