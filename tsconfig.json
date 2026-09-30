@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "module": "NodeNext",
+    "target": "ES2022"
+  },
+  "include": ["index.js", "command.js"]
+}

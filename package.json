@@ -1,0 +1,21 @@
+{
+  "name": "opencodev2-whiteboard-plugin",
+  "version": "0.1.0",
+  "description": "Connect OpenCode V2 to dev.fast Whiteboard",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": ["index.js", "command.js", "LICENSE", "README.md"],
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
